@@ -1,0 +1,25 @@
+{
+  "[go,go.mod]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.sortImports": "always"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.renderFinalNewline": "on",
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.enable": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+}
