@@ -1,8 +1,9 @@
 {
   "[go,go.mod]": {
     "editor.defaultFormatter": "golang.go",
-    "editor.insertSpaces": false,
-    "editor.tabSize": 4,
+  },
+  "[makefile]": {
+    "editor.defaultFormatter": "ms-vscode.makefile-tools",
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always",
@@ -22,4 +23,5 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "makefile.configureOnOpen": false,
 }
