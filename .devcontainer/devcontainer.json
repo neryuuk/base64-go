@@ -1,0 +1,24 @@
+{
+  "name": "neryuuk/base64-go",
+  "image": "mcr.microsoft.com/devcontainers/go:2-1.26-trixie",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "go.toolsManagement.checkForUpdates": "local",
+        "go.useLanguageServer": false
+      },
+      "extensions": [
+        "golang.Go",
+        "ms-vscode.makefile-tools"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/go:1": {
+      "golangciLintVersion": "v2",
+      "version": "1.26.5"
+    }
+  },
+  "postCreateCommand": "go version"
+}
